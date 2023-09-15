@@ -2,7 +2,7 @@ import requests
 
 url = "http://127.0.0.1:8000/extract_zips/"  # Замените на адрес вашего FastAPI сервера
 
-file_path = "..\\storage\\2.zip"
+file_path = "..\\storage\\cv3.0.zip"
 
 with open(file_path, "rb") as f:
     files = {"file": (file_path.split("\\")[-1], f)}
